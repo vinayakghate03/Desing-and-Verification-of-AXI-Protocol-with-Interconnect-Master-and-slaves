@@ -1,0 +1,9 @@
++incdir+../rtl_design
++incdir+.
+../rtl_design/define.sv
+../rtl_design/master.sv
+../rtl_design/slave.sv
+../rtl_design/axi_interconnect_2x4.sv
+axi_master_if.sv
+axi_pkg.sv
+uvm_tb_top.sv

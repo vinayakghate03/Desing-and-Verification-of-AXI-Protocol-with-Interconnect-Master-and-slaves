@@ -1,0 +1,8 @@
+`ifndef AXI4LITE_DEFINE_SV
+`define AXI4LITE_DEFINE_SV
+`define AXI_ADDR_WIDTH 32
+`define AXI_DATA_WIDTH 32
+`define AXI_STRB_WIDTH (`AXI_DATA_WIDTH/8)
+`define AXI_RESP_WIDTH 2
+`define AXI_OKAY 2'b00
+`endif
